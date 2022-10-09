@@ -11,13 +11,16 @@
     <?php
       include "navbar.php";
     ?>
+    <div class="container-fluid">
 
-    <form action="cat_insert.php" method="post"  enctype="multipart/form-data">
-       ประเภทสินค้า <input type="text" name="cat_name" /> <br/>
-       แทรกรูป <input type="file" name="photo" /> <br/>
-       <input type="submit" value="บึกทึกข้อมูล" />
-    </form>
+       <h1>ประเภทสินค้า</h1>
 
+      <form action="cat_insert.php" method="post"  enctype="multipart/form-data">
+        ประเภทสินค้า <input type="text" name="cat_name" /> <br/>
+        แทรกรูป <input type="file" name="photo" /> <br/>
+        <input type="submit" value="บึกทึกข้อมูล" />
+      </form>
+    </div>
     
 </body>
 </html>

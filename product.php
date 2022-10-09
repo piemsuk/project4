@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="./script/style.css" />
 </head>
 <body class="bgimg">
-        
+
+      
     <?php
       include "navbar.php";
     ?>
-    <h1>สินค้า</h1>
-
+    <div class="container-fluid">
+      <h1>สินค้า</h1>
+    </div>
     
 </body>
 </html>

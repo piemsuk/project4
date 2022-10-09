@@ -12,17 +12,18 @@
 <body>
     <?php
       include "navbar.php";
-    ?>
-    <h1> Login </h1>
+    ?> 
+    <div class="contiainer-fluid">
+        <h1> Login </h1>
 
-    <form action="login.php" method="post" enctype="multipart/form-data">
-        Email :
-        <input type="text" name="email" /> <br />
-        Password :
-        <input type="password" name="password" /> <br />
-        <input type="submit" value="เข้าสู่ระบบ" />
-    </form>
-
+        <form action="login.php" method="post" enctype="multipart/form-data">
+            Email :
+            <input type="text" name="email" /> <br />
+            Password :
+            <input type="password" name="password" /> <br />
+            <input type="submit" value="เข้าสู่ระบบ" />
+        </form>
+    </div>
 </body>
 
 </html>
